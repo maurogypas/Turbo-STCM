@@ -35,7 +35,7 @@ char nextState0[4], nextState1[4], nextState2[4], nextState3[4], preState0[4], p
 #define newV0         STATE[(state_i+31) & 0x0000001fU]
 #define newV1         STATE[state_i                   ]
 
-#define FACT 2.32830643653869628906e-10  // einai o ari8mos 2^-32
+#define FACT 2.32830643653869628906e-10  // 2^-32
 
 static unsigned state_i = 0;
 static unsigned STATE[R];
