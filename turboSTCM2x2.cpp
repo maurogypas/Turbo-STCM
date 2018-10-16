@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <string.h>
 
 #define termi 2     // After encoding, 2 termination symbols are sent from each constituent encoder
 #define N 2050      // interleaver length (in symbols) + termi
